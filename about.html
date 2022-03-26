@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <title>光源工作室</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/material-kit.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nucleo-icons.css">
+    <link rel="stylesheet" href="css/nucleo-svg.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <!-- JS -->
+    <script src="js/material-kit.min.js"></script>
+    <script src="js/core/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/core/popper.min.js"></script>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+SC&display=swap" rel="stylesheet">
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <!-- Header -->
+    <div id="nav"></div>
+    <!-- !Header -->
+
+    <!-- 简介 -->
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row align-items-center g-5 py-5">
+            <div class="col-lg-12">
+                <h1 class="display-5 fw-bold lh-1 mb-3 pb-5">工作室简介</h1>
+                <picture>
+                    <source type="image/webp" srcset="img/lights_banner.webp">
+                    <source type="image/jpeg" srcset="img/lights_banner.png">
+                    <img class="d-block mx-auto mb-4" class="d-block mx-lg-auto img-fluid" width="75%"
+                        src="img/lights_banner.png" loading="lazy">
+                </picture>
+                <p class="text-dark lead mb-0 px-3 py-4">
+                    光源工作室是成立于 2019 年的 Minecraft 原创资源开发团队。以起源工作室为前身，经历一系列改革，合并“矿世茶组”，我们致力于创作多领域、高质量、富有创造性的 Minecraft
+                    资源。<br><br>
+                    秉承着“和谐·优质·高效·专业”的理念，工作室倾尽全力制作精益求精的作品，培养更多优秀人才，同时欢迎各类有想法、有创新、有实力的玩家加入工作室，共同做想做的事，共同成就一番事业。<br><br>
+                    携手当下，共创未来！
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- !简介 -->
+
+    <!-- Footer -->
+    <script type="text/javascript">
+        function nowTime() {
+            var today = new Date();
+            var yyyy = today.getFullYear();
+            document.getElementById('nowDate').innerHTML = yyyy;
+        }
+    </script>
+    <div id="foot"></div>
+    <!-- !Footer -->
+
+    <!-- COMPONENTS -->
+    <script type="text/javascript">
+        $("#nav").load("components/nav.html #header");
+        $("#foot").load("components/nav.html #footer");
+    </script>
+</body>
+
+<script>
+    setInterval(nowTime, 1000);
+</script>
+
+</html>
