@@ -55,11 +55,14 @@
 	font-size: 0.75rem;
 	letter-spacing: 0.01em;
 }
-.map-card .uk-card {
-	border-top-color: #B7EE73;
-}
 .uk-subnav li a {
 	border-radius: 3px; 
+}
+.uk-subnav li.uk-active:nth-child(1) a {
+	background-color:#FB8C00;
+}
+.uk-subnav li.uk-active:nth-child(2) a {
+	background-color:#B7EE73;
 }
 .uk-subnav li.uk-active:nth-child(3) a {
 	background-color:#EEE873;
@@ -68,7 +71,13 @@
 	background-color:#EEAB73;
 }
 .uk-subnav li.uk-active:nth-child(5) a {
+	background-color:#FF85E8;
+}
+.uk-subnav li.uk-active:nth-child(6) a {
 	background-color:#9C85FF;
+}
+.map-card .uk-card {
+	border-top-color: #B7EE73;
 }
 .map-card .uk-card .cat-txt {
 	color: #87DE1B;
@@ -79,17 +88,23 @@
 .skin-card .uk-card .cat-txt {
 	color: #DED51B;
 }
-.plugin-card .uk-card {
-	border-top-color: #9C85FF;
-}
-.plugin-card .uk-card .cat-txt {
-	color: #481FFF;
-}
 .pack-card .uk-card {
 	border-top-color: #EEAB73;
 }
 .pack-card .uk-card .cat-txt {
 	color: #DE731B;
+}
+.modpack-card .uk-card {
+	border-top-color: #FF85E8;
+}
+.modpack-card .uk-card .cat-txt {
+	color: #FF1FD6;
+}
+.plugin-card .uk-card {
+	border-top-color: #9C85FF;
+}
+.plugin-card .uk-card .cat-txt {
+	color: #481FFF;
 }
 .uk-card .uk-overlay-primary {
 	padding:  0.5rem;
